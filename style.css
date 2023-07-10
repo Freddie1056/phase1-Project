@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url(https://images.pexels.com/photos/16868165/pexels-photo-16868165/free-photo-of-black-and-white-picture-of-a-cloudy-sky.jpeg?auto=compress&cs=tinysrgb&w=1600);
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  color: blue;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  background-color: #0088ff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0066cc;
+}
+
+#weather {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
+
+.interactions {
+  margin-top: 20px;
+}
+
+#likeButton {
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #ff5e5e;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#likeButton.liked {
+  background-color: #ff3838;
+}
+
+#comments {
+  margin-top: 10px;
+}
+
+#comments h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#commentList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#commentList li {
+  margin-bottom: 5px;
+}
+
+#commentForm input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+#commentForm button {
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #0088ff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.background-controls {
+  margin-top: 20px;
+}
+
+.background-controls label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.background-controls input[type="file"] {
+  display: block;
+}
